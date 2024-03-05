@@ -1,0 +1,168 @@
+/* Global */
+* {
+  margin: 0;
+  font-style: 'Open Sans', sans-serif;
+  
+}
+
+
+/* Header styling */
+.logo {
+  margin-right: 150px;
+}
+
+header {
+  background-color: rgb(231, 213, 213);
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  margin-right: 5px;
+}
+
+.header-img {
+  height: 120px;
+  width: 120px;
+  border-radius: 30px;
+}
+
+a {
+  color: rgb(107, 103, 103);
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 5px;
+  font-size: 25px;
+}
+
+.about-container {
+  margin-top: 10px;
+  width: 500px;
+}
+
+/* Main images */
+
+.project-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start; /* Align items at the start (top) of the flex container */
+  padding: 20px;
+}
+
+.big-img,
+.small-img {
+  width: 500px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
+}
+
+.project-info {
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust the transparency by changing the alpha value */
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.project-info h3,
+.project-info p {
+  margin: 0;
+}
+
+/* Images configurations */
+.big-img {
+  width: 720px;
+  height: 620px; /* Set the height of big-img to be close to twice the height of small-img */
+
+}
+
+.small-img {
+  height: 300px;
+}
+
+.small-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.small-img {
+  /* margin-top: 10px; */
+}
+
+/* Text configurations */
+.text-center {
+  text-align: center;
+}
+
+
+h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-box {
+  text-align: center;
+}
+
+/* Footer styles */
+
+/* Show underline when hover */
+footer div a:hover {  
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  margin-right: 5px;
+}
+
+/* Footer color and placement */
+footer {
+  /* display: flex; */
+  /* justify-content: space-between;
+  align-items: center; */
+  background-color: rgb(231, 213, 213);
+}
+
+.contact, footer > div > a {
+  color: rgb(107, 103, 103);
+}
+
+.center {
+  color: rgb(143, 68, 68);
+  font-weight: bold;
+}
+
+section, footer, .center {
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 5px;
+}
+/* Responsive layout */
+@media (min-width: 768px) {
+  img {
+      max-width: 100%;
+      height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  img {
+      max-width: 100%;
+      height: auto;
+  }
+}
+
