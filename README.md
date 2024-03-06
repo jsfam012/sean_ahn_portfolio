@@ -1,8 +1,11 @@
-# React + Vite
+# Sean Ahn Portfolio
+This website is a personal portfolio built using React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Installation
+No need for any installation for the users.  
 
-Currently, two official plugins are available:
+## Usage
+This website serves as a comprehensive person portfolio, showcasing a range of projects and works.  It's designed to highlight accomplishments, skills, and experiences in a visually appealing and accessible manner
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## License
+MIT license
